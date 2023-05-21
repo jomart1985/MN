@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">موسوعة نون</string>
+    <string name="copy_link">نسخ الرابط</string>
+    <string name="Download_image">تنزيل الصورة</string>
+    <string name="change_webview">تغيير المتصفح</string>
+    <string name="extract_mn">استخراج الموسوعة</string>
+    <string name="extract_pro">يتم استخراج الموسوعة</string>
+    <string name="extract_done">تم الاستخراج بنجاح</string>
+    <string name="webview_choose">اختر المتصفح</string>
+    <string name="one_more_press_back_button">Please the Back button once more shut down.</string>
+    <string name="download_from">قم بتنزيل مشغل متصفح كروسوك:</string>
+    <string name="download_image_done">تم التنزيل بنجاح ..</string>
+    <string name="download_image_fail">فشل تنزيل الصورة ..</string>
+
+    <string-array name="my_string_array">
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+
+
+    <string-array name="my_webview_array">
+        <item>متصفح داخلي</item>
+        <item>متصفح كروسووك</item>
+    </string-array>
+
+    <string-array name="my_webview_runtime_array">
+        <item>من جوجل بلاي</item>
+        <item>من ميديافاير</item>
+    </string-array>
+
+
+
+
+</resources>
+
+

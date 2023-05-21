@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "824688300511",
+    "project_id": "mawso3a-noon-2f71e",
+    "storage_bucket": "mawso3a-noon-2f71e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824688300511:android:c6dfb22b2b34e28685f46a",
+        "android_client_info": {
+          "package_name": "com.noon.team.mawso3a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824688300511-ts95j41osaik5l5jolkm29uatntbude0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5xebzQfhzOoA-fpHqa_XkTLJoV9cNV48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824688300511-ts95j41osaik5l5jolkm29uatntbude0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

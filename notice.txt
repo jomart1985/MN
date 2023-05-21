@@ -1,0 +1,24 @@
+must be un7zip build aar in debug type very importnt :
+build -> make project
+build -> deply modul to app engine
+build -> refersh c++ links
+
+=====================
+add aar:
+right click app folder
+open moduel setting
+=========
+
+create i amge icon :
+right click res folder 
+new file
+create aimge assets ..
+
+
+==============
+settings.gradle:
+rootProject.name = "Mawso3a Noon"
+//include ':app'
+include ':app', ':un7zip'
+
+=============

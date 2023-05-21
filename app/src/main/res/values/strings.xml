@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mawso3a NooN</string>
+    <string name="copy_link">copy link</string>
+    <string name="Download_image">Download_image</string>
+    <string name="change_webview">Browser change</string>
+    <string name="extract_mn">encyclopedia extract</string>
+    <string name="extract_pro">Extracting files</string>
+    <string name="webview_choose">Choose Web Browser</string>
+    <string name="extract_done">extract Done</string>
+    <string name="download_from">download Crosswalk Runtime:</string>
+    <string name="one_more_press_back_button">Please the Back button once more shut down.</string>
+    <string name="download_image_done">download image done ..</string>
+    <string name="download_image_fail">download image failed ..</string>
+
+    <string-array name="my_string_array">
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="my_webview_array">
+        <item>Built-in webview</item>
+        <item>Crosswalk webview</item>
+    </string-array>
+
+    <string-array name="my_webview_runtime_array">
+        <item>From Google play</item>
+        <item>From mediafire</item>
+    </string-array>
+
+
+</resources>
