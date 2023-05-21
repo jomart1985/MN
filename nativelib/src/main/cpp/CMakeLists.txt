@@ -15,6 +15,7 @@ project("nativelib")
 # Gradle automatically packages shared libraries with your APK.
 file(GLOB SOURCES "./*.cpp")
 file(GLOB COOL "./cool/*.cpp")
+file(GLOB ICU "./include/icu/unicode/*.h")
 file(GLOB BOOST_LIB_SO "boost_libs/${ANDROID_ABI}/*.so")
 file(GLOB BOOST_HEADER "./boost/")
 
@@ -28,7 +29,8 @@ add_library( # Sets the name of the library.
         # Provides a relative path to your source file(s).
         #nativelib.cpp
         ${SOURCES}
-        ${COOL} )
+        ${COOL}
+        ${ICU})
 
 
 
@@ -88,8 +90,8 @@ target_link_libraries( # Specifies the target library.
 
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
-include_directories(${CMAKE_SOURCE_DIR}/include/icu/common)
-include_directories(${CMAKE_SOURCE_DIR}/include/icu/i18n)
+#include_directories(${CMAKE_SOURCE_DIR}/include/icu/common)
+include_directories(${CMAKE_SOURCE_DIR}/include/icu)
 
 file(GLOB ICU_LIBRARIES "${CMAKE_SOURCE_DIR}/icu_libs/${ANDROID_ABI}/lib/*.a")
 target_link_libraries(nativelib ${ICU_LIBRARIES})
