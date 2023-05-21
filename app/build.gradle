@@ -41,9 +41,9 @@ android {
     signingConfigs {
         release {
             storeFile file('../noon.jks')
-            storePassword "1478963"
+            storePassword "00000"
             keyAlias 'noon'
-            keyPassword '1478963'
+            keyPassword '000000'
 
             v1SigningEnabled true
             v2SigningEnabled true
