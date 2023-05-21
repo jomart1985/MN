@@ -29,9 +29,9 @@ Java_com_example_nativelib_NativeLib_stringFromJNI(
         std::string playername = results[2];  //Get contents of the second (...)
     }
 
-   /* boost::u32regex expr3 = boost::make_u32regex(u8"[^[:w:][:digit:]\\s]");
+    boost::u32regex expr3 = boost::make_u32regex(u8"[^[:w:][:digit:]\\s]");
     std::string fmt3{ " " };
-    html = boost::u32regex_replace(html, expr3, fmt3);*/
+    html = boost::u32regex_replace(html, expr3, fmt3);
 
 
     return env->NewStringUTF(hello.c_str());
